@@ -6,14 +6,27 @@ This is a personal stock trading simulation app built using Flask, Bootstrap, an
 
 ---
 
-## 🛠 Technologies
+## 🚀 Features
 
-- Python (Flask)
-- HTML, CSS (Bootstrap)
-- SQLite
-- Render (for deployment)
+- 🔐 User authentication (register, login, logout)
+- 📈 Buy and sell stocks with live market prices (via `lookup()` API)
+- 💰 View current holdings and cash balance
+- 🧾 Track transaction history
+- ⚠️ Input validation and user-friendly error messages
 
 ---
+
+## 🛠 Technologies Used
+
+- **Python & Flask** – backend logic and routing  
+- **SQLite** – lightweight database for storing user data  
+- **Flask-Session** – for secure server-side sessions  
+- **Bootstrap** – responsive UI styling  
+- **Jinja2** – HTML templating  
+- **Render** – for live deployment  
+
+---
+
 
 ## 🚀 How to Run Locally
 
