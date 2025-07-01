@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <div class="mb-3 form-control mx-auto w-auto">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Price($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{symbol.name}}</td>
+                    <td>{{symbol.symbol}}</td>
+                    <td>{{symbol.price | usd }}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+{% endblock %}
